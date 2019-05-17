@@ -1,33 +1,83 @@
-.App {
-  text-align: center;
+body {
+  font-family: 'Lato', sans-serif;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+nav {
+  display: block;
+  background-color: #222222;
+  padding: 10px 0 10px 0;
+  /* position: sticky */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.textArea {
+  margin-left: 15%;
+}
+
+.mainContainer {
+  background-image: url('./assets/photo-couch.jpg');
+  background-size: cover;
+  background-position: center;
   color: white;
+  height: 700px;
+  position: relative;
+  top: -20px;
 }
 
-.App-link {
-  color: #61dafb;
+h1 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-weight: 100;
+  font-size: 2.5em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h3 {
+  font-weight: 100;
 }
+
+.textArea {
+  display: block;
+  position: relative;
+  top: 375px;
+}
+
+.aboutTextSubArea {
+  width: 51%;
+}
+
+button {
+  background-color: #47e4c2;
+  color: #333333;
+  border-radius: 25px;
+  border-style: hidden;
+  padding: 5px 20px 5px 20px;
+  font-weight: 700;
+}
+
+button:hover {
+  background-color: #047b62;
+  transition: background-color 0.3s ease-in;
+}
+
+/* for sake of accessibility */
+/* button:focus {
+  border: 1px solid white;
+  outline: none;
+  transition: border 0.2s ease-in;
+} */
+
+button:focus {
+  outline: none;
+}
+
+button:active {
+  background-color: #b4ebdf;
+}
+
+/* media queries */
+
+/* small screen */
+
+/* .textArea {
+  top: 200px;
+}
+  */
