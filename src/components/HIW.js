@@ -80,10 +80,12 @@ class HowItWorks1 extends Component {
     return (
       <div className="hiwContainer">
         <h2>How It Works</h2>
-        <Step1 stage1Title={stage1Title} stage1Body={stage1Body} />
-        <Step2 stage2Title={stage2Title} stage2Body={stage2Body} />
-        <Step3 stage3Title={stage3Title} stage3Body={stage3Body} />
-        <Step4 stage4Title={stage4Title} stage4Body={stage4Body} />
+        <div className="flex-container">
+          <Step1 stage1Title={stage1Title} stage1Body={stage1Body} />
+          <Step2 stage2Title={stage2Title} stage2Body={stage2Body} />
+          <Step3 stage3Title={stage3Title} stage3Body={stage3Body} />
+          <Step4 stage4Title={stage4Title} stage4Body={stage4Body} />
+        </div>
       </div>
     );
   }

@@ -3,7 +3,7 @@ import logoEndless from '../assets/logoEndless.svg';
 
 const logoStyles = {
   position: 'relative',
-  left: '15%'
+  left: '10%'
 };
 
 const Nav = () => {

@@ -10,7 +10,7 @@ nav {
 }
 
 .textArea {
-  margin-left: 15%;
+  margin-left: 10%;
 }
 
 .mainContainer {
@@ -23,10 +23,10 @@ nav {
   top: -20px;
 }
 
-h1 {
+.textAreaH1 {
   margin-top: 0px;
   margin-bottom: 0px;
-  font-weight: 100;
+  font-weight: 300;
   font-size: 2.5em;
 }
 
@@ -41,7 +41,7 @@ h3 {
 }
 
 .aboutTextSubArea {
-  width: 51%;
+  width: 385px;
 }
 
 button {
@@ -76,36 +76,63 @@ button:active {
 
 .hiwContainer {
   text-align: center;
-  /* background-color: lightgray; */
+  padding-bottom: 100px;
+  color: #333333;
+}
+
+h2 {
+  letter-spacing: 1.5px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  width: 75%;
+  margin: auto;
 }
 
 .stepContainer {
-  width: 23%;
   margin: 0 10px 0 10px;
-  float: left;
-  padding-bottom: 100px;
 }
 
 .stepNum {
-  font-weight: 700;
+  font-weight: bold;
+  font-size: 3em;
+  margin: 0;
 }
 
 .numHR {
   height: 3px;
-  width: 50px;
+  width: 55px;
   background-color: #47e4c2;
   border: none;
 }
 
 .stepTitle {
-  font-weight: 700;
+  font-weight: bold;
+  /* font-size: 1em; */
 }
 
-/* media queries */
-
-/* small screen */
-
-/* .textArea {
-  top: 200px;
+.stepBody {
+  font-weight: 400;
+  margin: auto;
+  width: 90%;
 }
-  */
+
+@media screen and (max-width: 600px) {
+  .textArea {
+    top: 265px;
+  }
+  .textAreaH1 {
+    font-size: 1.75em;
+  }
+  .aboutTextSubArea {
+    width: 250px;
+  }
+  h2 {
+    margin-bottom: 40px;
+  }
+  .flex-container {
+    flex-direction: column;
+  }
+}
