@@ -49,7 +49,8 @@ button {
   color: #333333;
   border-radius: 25px;
   border-style: hidden;
-  padding: 5px 20px 5px 20px;
+  padding: 5px 25px 5px 25px;
+  margin-top: 10px;
   font-weight: 700;
 }
 
@@ -71,6 +72,33 @@ button:focus {
 
 button:active {
   background-color: #b4ebdf;
+}
+
+.hiwContainer {
+  text-align: center;
+  /* background-color: lightgray; */
+}
+
+.stepContainer {
+  width: 23%;
+  margin: 0 10px 0 10px;
+  float: left;
+  padding-bottom: 100px;
+}
+
+.stepNum {
+  font-weight: 700;
+}
+
+.numHR {
+  height: 3px;
+  width: 50px;
+  background-color: #47e4c2;
+  border: none;
+}
+
+.stepTitle {
+  font-weight: 700;
 }
 
 /* media queries */
