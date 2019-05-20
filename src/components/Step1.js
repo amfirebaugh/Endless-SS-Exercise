@@ -1,7 +1,7 @@
 import React from 'react';
 
 function Step1(props) {
-  console.log(props);
+  // console.log(props);
   return (
     <div className="stepContainer">
       <h1 className="stepNum">01</h1>
