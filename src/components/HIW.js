@@ -37,7 +37,7 @@ class HowItWorks1 extends Component {
         console.log(resp.data);
 
         // **** Note:
-        // Using lines 42-45 the thought was aiming to use Object.keys or Object.values to target the effectiveDate to most likely sort or filter the JSON
+        // Using lines 42-45 the thought was to use Object.keys or Object.values to target the effectiveDate to most likely sort or filter the JSON
 
         // const step3VC = resp.data[2].versionContent;
         // console.log(step3VC);
