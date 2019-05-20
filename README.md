@@ -45,19 +45,22 @@ First: Make sure to double check the package.json "homepage" URL is accurate. Do
 
 2. Navigate to your local directory/project and run:
 
- ```` $ git init
+ ```` 
+ $ git init
  ````
  
 3. Connect your remote GitHub repo with your local project by running:
 
- ```` $ git remote add origin https://github.com/gitname/REMOTEREPONAME.git
+ ```` 
+ $ git remote add origin https://github.com/gitname/REMOTEREPONAME.git
  ````
 
  Note: the link used in the line above should be the same URL you put in your package.json as your "homepage." This way GitHub knows where to publish your application.
 
 4. Build and deploy your app to GitHub pages.
 
- ```` $ npm run deploy
+ ```` 
+ $ npm run deploy
  ````
 
  Note: This is all that's needed to deploy since there are already added scripts inside the package.json to also run an npm build.
