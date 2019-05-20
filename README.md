@@ -41,27 +41,27 @@ $ npm start
 
 First: Make sure to double check the package.json "homepage" URL is accurate. Double check that you have the gh-pages package installed as well.
 
-⋅⋅1. Start with an empty repository on your GitHub account. Completely empty.
+1. Start with an empty repository on your GitHub account. Completely empty.
 
-⋅⋅2. Navigate to your local directory/project and run:
+2. Navigate to your local directory/project and run:
 
-⋅⋅⋅ ```` $ git init
-⋅⋅⋅ ````
+ ```` $ git init
+ ````
  
-⋅⋅3. Connect your remote GitHub repo with your local project by running:
+3. Connect your remote GitHub repo with your local project by running:
 
-⋅⋅⋅ ```` $ git remote add origin https://github.com/gitname/REMOTEREPONAME.git
-⋅⋅⋅ ````
+ ```` $ git remote add origin https://github.com/gitname/REMOTEREPONAME.git
+ ````
 
-⋅⋅⋅ Note: the link used in the line above should be the same URL you put in your package.json as your "homepage." This way GitHub knows where to publish your application.
+ Note: the link used in the line above should be the same URL you put in your package.json as your "homepage." This way GitHub knows where to publish your application.
 
-⋅⋅4. Build and deploy your app to GitHub pages.
+4. Build and deploy your app to GitHub pages.
 
-⋅⋅⋅ ```` $ npm run deploy
-⋅⋅⋅ ````
+ ```` $ npm run deploy
+ ````
 
-⋅⋅⋅ Note: This is all that's needed to deploy since there are already added scripts inside the package.json to also run an npm build.
+ Note: This is all that's needed to deploy since there are already added scripts inside the package.json to also run an npm build.
 
-⋅⋅5. Lastly, go into the settings of your repo/project in GitHub and make sure the "Source" your page is being built from is the gh-pages branch.
+5. Lastly, go into the settings of your repo/project in GitHub and make sure the "Source" your page is being built from is the gh-pages branch.
 
-⋅⋅⋅ (Optional) Go in and change the scripts so that it publishes to your master branch instead.
+ (Optional) Go in and change the scripts so that it publishes to your master branch instead.
